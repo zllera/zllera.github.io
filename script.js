@@ -5,7 +5,7 @@ window.addEventListener('load', function () {
 
         var img = document.createElement('img')
         img.className = "pure-img"
-        img.src = `/img/comics/${imgIdx}.jpg`
+        img.src = `/img/comics/${imgIdx}.JPG`
         img.alt = `Страница ${imgIdx}`
         imgDiv.appendChild(img)
 
